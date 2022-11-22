@@ -1,8 +1,6 @@
-// java Program to do Array Search
-
 import java.util.Scanner;
 
-public class ArraySearch {
+public class arraysearch {
     static void sortArray(int[] arr) {
         System.out.print("Sorted Array are: \t");
         for (int i = 0; i < arr.length; i++) {

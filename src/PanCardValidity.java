@@ -1,11 +1,10 @@
-// java Program to check the validity of pancard
-
 import java.util.Scanner;
 
 class withInvalidPanException extends Exception {
     public withInvalidPanException(String s) {
         super(s);
     }
+
 }
 
 public class PanCardValidity {

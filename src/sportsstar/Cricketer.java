@@ -1,16 +1,16 @@
 package sportsstar;
 
-import sports.OutdoorGame;
+import sports.Cricket;
 
 public class Cricketer {
-    OutdoorGame type;
+    Cricket type;
     String name;
     String nationality;
     double battingAverage;
     double bowlingAverage;
     double rating;
 
-    public Cricketer (OutdoorGame type, String name, String nationality, double
+    public Cricketer (Cricket type, String name, String nationality, double
             bowlingAverage, double battingAverage) {
         this.type = type;
         this.name = name;

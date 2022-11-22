@@ -1,5 +1,3 @@
-// java Program throw exception on longer or shorter input strings
-
 import java.util.Scanner;
 
 class ExceptionLineTooLong extends Exception {
